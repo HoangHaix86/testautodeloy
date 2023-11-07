@@ -4,5 +4,5 @@ isChanged=$(git fetch)
 
 if [ ! -z "$isChanged" ];
 then
-    echo "Emty";
+    dotnet --version;
 fi
