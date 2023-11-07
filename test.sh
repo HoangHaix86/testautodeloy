@@ -1,3 +1,8 @@
 #!/bin/bash
+
 isChanged=$(git fetch)
-[ -z "$var" ] && echo "Empty"
+
+if [ ! -z "$isChanged" ];
+then
+    echo "Emty";
+fi
